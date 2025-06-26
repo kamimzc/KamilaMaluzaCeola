@@ -1,3 +1,41 @@
 body {
-    background: #DDCBEF;
+    color: #fff1f5;
+    font-family: 'Segoe UI', sans-serif; /*fonte*/
+    text-align: justify;  /*alinhamento do texto*/
+    font-size: 16px; /*tamanho da fonte*/
+    line-height: 1.6; /*altura da linha*/
+    height: 100vh;
+    margin: 0;
+    background: linear-gradient(45deg, #e763d6, #f079e0, #bd31b6, #d54df0);
+    }
+/*Espaçamento*/
+h2 {
+  margin-bottom: 20px;/*espaço fora do elemento*/
+  padding: 10px;/*espaço dentro do elemento*/
 }
+
+/*bordas e canto arredondado*/
+div {
+  border: 1px solid #ccc; /*borda*/
+  border-radius: 10px; /*redor da borda*/
+  box-shadow: 0 4px 8px rgba(0,0,0,0.2); /*sobra p texto*/
+}
+a { /*aplica o estilo a todos os links da página*/
+  color: #5e2ca5;
+  text-decoration: none;/*Remove o sublinhado padrão dos links*/
+}
+
+a:hover {/* aplica o estilo quando o usuário passa o mouse por cima do link.*/
+  text-decoration: underline;/*Adiciona o sublinhado apenas no hover, criando um efeito visual de "interação"*/
+  color: #3a1c6d;
+}
+
+/*centralizar o conteúdo*/
+.container {
+  max-width: 1000px;/*largura máxima do container*/
+  margin: 0 auto;/*centraliza horizontalmente a página*/
+  
+}
+
+
+
