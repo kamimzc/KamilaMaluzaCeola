@@ -6,7 +6,7 @@ body {
     line-height: 1.6; /*altura da linha*/
     height: 100vh;
     margin: 0;
-    background: linear-gradient(45deg, #e763d6, #f079e0, #bd31b6, #d54df0);
+    background: linear-gradient(135deg, #ff7ecb, #b456c4, #7127b5);
     }
 /*Espaçamento*/
 h2 {
@@ -35,6 +35,25 @@ a:hover {/* aplica o estilo quando o usuário passa o mouse por cima do link.*/
   max-width: 1000px;/*largura máxima do container*/
   margin: 0 auto;/*centraliza horizontalmente a página*/
   
+}
+
+/*construção de cards dividindo o conteúdo do repositório*/
+.bloco {/*bloco que cuida da aparência geral da caixa*/
+  
+  border-radius: 10px;
+  padding: 20px;/*Espaço interno entre o conteúdo e a borda do bloco*/
+  margin-bottom: 30px;/*Espaço externo entre este bloco e o próximo elemento abaixo*/
+  box-shadow: 0 4px 500px rgba(0,0,0,0.3);
+  max-width: 800px;/*largura*/
+  margin-left: auto;/*deixa o bloco horizontal*/
+  margin-right: auto;
+}
+.bloco h2 {/*bloco que estiliza o que há dentro do bloco*/
+  margin-top: 0;/*Remove espaço extra acima do título H2*/
+  color: #ffe0ff;
+}
+.bloco ul {/*estilo das listas dentro do bloco*/
+  padding-left: 20px;/*Dá recuo nos itens da lista.*/
 }
 
 
