@@ -43,12 +43,7 @@ nav a:hover {
   color: var(--primary);
 }
 
-/* LAYOUT */
-.container {
-  max-width: 1100px;
-  margin: auto;
-  padding: 2rem;
-}
+
 
 /* HERO */
 .hero {
@@ -89,21 +84,7 @@ nav a:hover {
   text-decoration: none;
 }
 
-/* CARDS */
-.card {
-  background: var(--card);
-  padding: 2rem;
-  border-radius: 14px;
-  margin-bottom: 2rem;
-  border: 1px solid #1e293b;
-}
 
-/* GRIDS */
-.grid {
-  display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 2rem;
-}
 
 /* TITLES */
 .section-title {
@@ -127,3 +108,4 @@ li {
   text-decoration: none;
   font-weight: bold;
 }
+
